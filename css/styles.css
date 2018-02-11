@@ -1,0 +1,104 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	margin:0;
+}
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	margin:0;
+	height: 50px;
+	background-color: #39b184;
+	overflow: hidden;
+	position: fixed;
+	top:0;
+
+}
+#header-content{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15pt;
+	font-color: black;
+	margin: 1.5em;
+}
+.inicio{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+    margin: 50px 0px 100px 0px;	
+    padding: 3em;
+	/*background-color: #f8bb18;*/
+	overflow:auto;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4em;
+	font-color: #215b71;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15pt;
+	font-color: black;
+	width: 60%;
+	margin: 25px;
+	text-align: justify;
+}
+.logos{
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	margin: 25px;
+	width: 60%;
+
+}
+.imagen1, .imagen2, .imagen3 {
+    height: 150px;
+}
+
+.aboutme{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+    margin: 200px 0px 100px 0px;	
+    padding: 3em;
+    overflow:visible;
+    /*background-color: #f8bb18;*/
+    position: relative;
+
+
+}
+.me{
+	position: relative;
+	width: 400px;
+	margin-left: 20%;
+}
+.text{
+	display:flex;
+	flex-flow: column wrap;
+	align-items: flex-start;
+	position: absolute;
+	justify-content: flex-start;
+	top: 150px;
+    left: 40%;
+    width: 60%;
+    overflow:visible;
+}
+.next {
+	position:absolute;
+  	bottom:0;
+  	cursor:pointer;
+	font-size:100px;
+}
