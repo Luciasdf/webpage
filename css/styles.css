@@ -26,16 +26,19 @@ body {
 	font-color: black;
 	margin: 1.5em;
 }
-.inicio{
+section{
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	padding: 3em;
 	width: 100%;
-    margin: 50px 0px 100px 0px;	
-    padding: 3em;
+    overflow:visible;
+	flex-wrap: wrap;
+}
+.inicio{
+	justify-content: center;
+	flex-direction: column;
+    margin: 80px 0px 100px 0px;	
 	/*background-color: #f8bb18;*/
-	overflow:auto;
 }
 
 h1{
@@ -67,18 +70,10 @@ h2{
 }
 
 .aboutme{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
 	justify-content: flex-start;
-	width: 100%;
     margin: 200px 0px 100px 0px;	
-    padding: 3em;
-    overflow:visible;
     /*background-color: #f8bb18;*/
     position: relative;
-
-
 }
 .me{
 	position: relative;
@@ -96,9 +91,25 @@ h2{
     width: 60%;
     overflow:visible;
 }
-.next {
-	position:absolute;
-  	bottom:0;
-  	cursor:pointer;
-	font-size:100px;
+.workspace{
+	justify-content: center;
+	flex-direction: column;
+    margin: 200px 0px 100px 0px;
+	/*background-color: #f8bb18;*/
+}
+.workcontainer{
+	display:flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-flow: row wrap;
+	margin: auto;
+	flex-grow: 1;
+	width: 80%;
+}
+.workimage{
+	width: 300px;
+ 	height: 300px;
+ 	border: 1px solid #000;
+	object-fit: cover;
+	margin: 1em;
 }
